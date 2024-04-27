@@ -1,0 +1,28 @@
+body {
+    background-color: bisque;
+}
+
+.header {
+    text-align: center;
+}   
+
+.header__title {
+    display: inline;
+    border-bottom: solid black 2px;
+    position: relative;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 4;
+    margin-top: 10px;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: solid black 3px;
+}
